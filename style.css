@@ -33,3 +33,8 @@ body *{
 #profile img{
   width: 11.2rem;
 }
+
+#profile p{
+  font-weight: 500;
+  line-height: 2.4rem;
+}
