@@ -14,3 +14,10 @@ body {
   background-position: top center;
   background-size: cover;
 }
+
+#container {
+  width: 36rem;
+  height: 71.2rem;
+  border: 1px solid red;
+  margin: auto;
+}
