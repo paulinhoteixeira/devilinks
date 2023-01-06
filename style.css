@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root{
+:root {
   font-size: 62.5%;
 }
 
@@ -15,26 +15,28 @@ body {
   background-size: cover;
 }
 
-body *{
-  font-family: 'Inter', sans-serif;
+body * {
+  font-family: "Inter", sans-serif;
   color: #ffffff;
 }
 
 #container {
   width: 36rem;
-  border: 1px solid red;
-  margin: auto;
+  margin: 5.6rem auto 0;
 }
 
 #profile {
   text-align: center;
+  padding: 2.4rem;
 }
 
-#profile img{
+#profile img {
   width: 11.2rem;
 }
 
-#profile p{
+#profile p {
   font-weight: 500;
+  font-size: 1.6rem;
   line-height: 2.4rem;
+  margin-top: 0.8rem;
 }
