@@ -40,3 +40,37 @@ body * {
   line-height: 2.4rem;
   margin-top: 0.8rem;
 }
+
+/* LINKS */
+ul{
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+ul li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.6rem 2.4rem;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: .8rem;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: background 0.2s;
+}
+
+ul li a:hover{
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid white;
+}
